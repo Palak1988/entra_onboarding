@@ -1,0 +1,39 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+    platform: h2
+  h2:
+    console:
+      enabled: true
+
+# Azure Key Vault Configuration for Development
+# For local development, ensure you have:
+# 1. Azure CLI installed and authenticated (az login)
+# 2. Or set environment variables: AZURE_CLIENT_ID, AZURE_CLIENT_SECRET, AZURE_TENANT_ID
+# 3. The Key Vault must have a secret named 'client-secret'
+azure:
+  keyvault:
+    url: https://{your-keyvault-name}.vault.azure.net/
+
+oidc:
+  client:
+    clientId: your-client-id
+    clientSecret: your-client-secret
+    redirectUris:
+      - http://localhost:8081/callback
+  graph:
+    baseUrl: https://graph.microsoft.com/v1.0
+    scopes:
+      - User.Read
+      - Application.ReadWrite.All
+
+logging:
+  level:
+    root: INFO
+    com.example.oidc: DEBUG

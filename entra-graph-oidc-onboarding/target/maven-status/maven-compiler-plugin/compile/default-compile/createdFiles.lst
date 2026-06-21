@@ -1,0 +1,10 @@
+com\example\oidc\OidcOnboardingApplication.class
+com\example\oidc\service\GraphApiService.class
+com\example\oidc\model\OidcApplication.class
+com\example\oidc\service\OnboardingService.class
+com\example\oidc\client\GraphApiClient.class
+com\example\oidc\controller\AppOnboardingController.class
+com\example\oidc\config\GraphApiConfig.class
+com\example\oidc\client\AzureKeyVaultSecretManager.class
+com\example\oidc\config\SecurityConfig.class
+com\example\oidc\config\AzureKeyVaultConfig.class
