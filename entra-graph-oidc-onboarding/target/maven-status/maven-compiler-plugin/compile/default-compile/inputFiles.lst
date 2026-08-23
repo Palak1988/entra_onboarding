@@ -1,0 +1,10 @@
+C:\Users\palak\Documents\workspace-sts\entra-graph-oidc-onboarding\entra-graph-oidc-onboarding\src\main\java\com\example\oidc\client\AzureKeyVaultSecretManager.java
+C:\Users\palak\Documents\workspace-sts\entra-graph-oidc-onboarding\entra-graph-oidc-onboarding\src\main\java\com\example\oidc\client\GraphApiClient.java
+C:\Users\palak\Documents\workspace-sts\entra-graph-oidc-onboarding\entra-graph-oidc-onboarding\src\main\java\com\example\oidc\config\AzureKeyVaultConfig.java
+C:\Users\palak\Documents\workspace-sts\entra-graph-oidc-onboarding\entra-graph-oidc-onboarding\src\main\java\com\example\oidc\config\GraphApiConfig.java
+C:\Users\palak\Documents\workspace-sts\entra-graph-oidc-onboarding\entra-graph-oidc-onboarding\src\main\java\com\example\oidc\config\SecurityConfig.java
+C:\Users\palak\Documents\workspace-sts\entra-graph-oidc-onboarding\entra-graph-oidc-onboarding\src\main\java\com\example\oidc\controller\AppOnboardingController.java
+C:\Users\palak\Documents\workspace-sts\entra-graph-oidc-onboarding\entra-graph-oidc-onboarding\src\main\java\com\example\oidc\model\OidcApplication.java
+C:\Users\palak\Documents\workspace-sts\entra-graph-oidc-onboarding\entra-graph-oidc-onboarding\src\main\java\com\example\oidc\OidcOnboardingApplication.java
+C:\Users\palak\Documents\workspace-sts\entra-graph-oidc-onboarding\entra-graph-oidc-onboarding\src\main\java\com\example\oidc\service\GraphApiService.java
+C:\Users\palak\Documents\workspace-sts\entra-graph-oidc-onboarding\entra-graph-oidc-onboarding\src\main\java\com\example\oidc\service\OnboardingService.java

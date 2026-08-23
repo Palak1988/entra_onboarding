@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: oidc-onboarding
+
+azure:
+  keyvault:
+    url: https://{your-keyvault-name}.vault.azure.net/
+
+oidc:
+  client:
+    id: your-client-id
+    secret: your-client-secret
+    redirect-uri: http://localhost:8080/callback
+    scope: openid profile email
+    discovery-uri: https://login.microsoftonline.com/{tenant}/v2.0/.well-known/openid-configuration
+
+graph:
+  api:
+    base-url: https://graph.microsoft.com/v1.0
+    version: v1.0
+    timeout: 5000
+
+logging:
+  level:
+    root: INFO
+    com.example.oidc: DEBUG
